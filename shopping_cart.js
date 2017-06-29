@@ -13,7 +13,8 @@ function ShoppingCart() {
     };
 
     this.deleteItem = function (id) {
-        delete this.items[id]
+        if (this.items[id])
+            delete this.items[id]
     };
 
     this.incrementItem = function (id) {
@@ -32,8 +33,8 @@ function ShoppingCart() {
     };
 
     this.applyDiscountToCart = function (discount) {
-        for (var id in this.items){
-            if(this.items.hasOwnProperty(id))
+        for (var id in this.items) {
+            if (this.items.hasOwnProperty(id))
                 this.applyDiscountToItem(discount, id);
         }
     };
@@ -45,8 +46,8 @@ function ShoppingCart() {
             finalPrice: 0
         };
 
-        for(var id in this.items){
-            if(this.items.hasOwnProperty(id)){
+        for (var id in this.items) {
+            if (this.items.hasOwnProperty(id)) {
                 var price = this.items[id].price;
                 var finalPrice = this.items[id].finalPrice;
                 var count = this.items[id].count;
@@ -60,4 +61,4 @@ function ShoppingCart() {
     }
 }
 
-var sc1 = new ShoppingCart;
+module.exports = ShoppingCart;

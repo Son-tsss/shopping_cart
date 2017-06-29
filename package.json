@@ -1,0 +1,23 @@
+{
+  "name": "shopping_cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "shopping_cart.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Son-tsss/shopping_cart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Son-tsss/shopping_cart/issues"
+  },
+  "homepage": "https://github.com/Son-tsss/shopping_cart#readme"
+}
