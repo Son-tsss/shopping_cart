@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should have initial state of given reducer as previous state and correct current state 1`] = `
+Object {
+  "currentState": 1,
+  "futureStates": Array [],
+  "previousStates": Array [
+    0,
+  ],
+}
+`;
+
+exports[`should have new state of given reducer as current state 1`] = `
+Object {
+  "currentState": 3,
+  "futureStates": Array [],
+  "previousStates": Array [
+    0,
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`should have next state as current and current state in previousStates after redo 1`] = `
+Object {
+  "currentState": 3,
+  "futureStates": Array [
+    4,
+  ],
+  "previousStates": Array [
+    0,
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`should have next state empty after new changes 1`] = `
+Object {
+  "currentState": 3,
+  "futureStates": Array [],
+  "previousStates": Array [
+    0,
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`should have prev state as current and current state in futureStates after undo 1`] = `
+Object {
+  "currentState": 1,
+  "futureStates": Array [
+    2,
+  ],
+  "previousStates": Array [
+    0,
+  ],
+}
+`;

@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`decrementing not existing item should change nothing  1`] = `
+Object {
+  "currentState": Object {
+    "discount": 1,
+    "items": Array [
+      Object {
+        "count": 1,
+        "discount": 1,
+        "id": "i1",
+        "price": 100,
+      },
+    ],
+  },
+  "futureStates": Array [],
+  "previousStates": Array [
+    Object {
+      "discount": 1,
+      "items": Array [],
+    },
+    Object {
+      "discount": 1,
+      "items": Array [],
+    },
+    Object {
+      "discount": 1,
+      "items": Array [
+        Object {
+          "count": 1,
+          "discount": 1,
+          "id": "i1",
+          "price": 100,
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`incrementing not existing item should change nothing 1`] = `
+Object {
+  "currentState": Object {
+    "discount": 1,
+    "items": Array [
+      Object {
+        "count": 1,
+        "discount": 1,
+        "id": "i1",
+        "price": 100,
+      },
+    ],
+  },
+  "futureStates": Array [],
+  "previousStates": Array [
+    Object {
+      "discount": 1,
+      "items": Array [],
+    },
+    Object {
+      "discount": 1,
+      "items": Array [],
+    },
+    Object {
+      "discount": 1,
+      "items": Array [
+        Object {
+          "count": 1,
+          "discount": 1,
+          "id": "i1",
+          "price": 100,
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`should decrement existing item in the items list  1`] = `
+Object {
+  "currentState": Object {
+    "discount": 1,
+    "items": Array [
+      Object {
+        "count": 0,
+        "discount": 1,
+        "id": "i1",
+        "price": 100,
+      },
+    ],
+  },
+  "futureStates": Array [],
+  "previousStates": Array [
+    Object {
+      "discount": 1,
+      "items": Array [],
+    },
+    Object {
+      "discount": 1,
+      "items": Array [],
+    },
+    Object {
+      "discount": 1,
+      "items": Array [
+        Object {
+          "count": 1,
+          "discount": 1,
+          "id": "i1",
+          "price": 100,
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`should increment existing item in the items list 1`] = `
+Object {
+  "currentState": Object {
+    "discount": 1,
+    "items": Array [
+      Object {
+        "count": 2,
+        "discount": 1,
+        "id": "i1",
+        "price": 100,
+      },
+    ],
+  },
+  "futureStates": Array [],
+  "previousStates": Array [
+    Object {
+      "discount": 1,
+      "items": Array [],
+    },
+    Object {
+      "discount": 1,
+      "items": Array [],
+    },
+    Object {
+      "discount": 1,
+      "items": Array [
+        Object {
+          "count": 1,
+          "discount": 1,
+          "id": "i1",
+          "price": 100,
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`shouldn\`t decrement item below 0 1`] = `
+Object {
+  "currentState": Object {
+    "discount": 1,
+    "items": Array [
+      Object {
+        "count": 0,
+        "discount": 1,
+        "id": "i1",
+        "price": 100,
+      },
+    ],
+  },
+  "futureStates": Array [],
+  "previousStates": Array [
+    Object {
+      "discount": 1,
+      "items": Array [],
+    },
+    Object {
+      "discount": 1,
+      "items": Array [],
+    },
+    Object {
+      "discount": 1,
+      "items": Array [
+        Object {
+          "count": 1,
+          "discount": 1,
+          "id": "i1",
+          "price": 100,
+        },
+      ],
+    },
+    Object {
+      "discount": 1,
+      "items": Array [
+        Object {
+          "count": 0,
+          "discount": 1,
+          "id": "i1",
+          "price": 100,
+        },
+      ],
+    },
+  ],
+}
+`;

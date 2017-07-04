@@ -1,1 +1,1 @@
-import shoppingCart from "./shopping_cart_reducer"
+import shoppingCart from "./shopping_cart"

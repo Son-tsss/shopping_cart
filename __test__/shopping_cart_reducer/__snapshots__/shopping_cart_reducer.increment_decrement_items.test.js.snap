@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`decrementing not existing item changes nothing 1`] = `
+Object {
+  "discount": 1,
+  "items": Array [
+    Object {
+      "count": 2,
+      "discount": 0.5,
+      "id": "i1",
+      "price": 100,
+    },
+    Object {
+      "count": 1,
+      "discount": 1,
+      "id": "i2",
+      "price": 200,
+    },
+  ],
+}
+`;
+
+exports[`decrements existing item 1`] = `
+Object {
+  "discount": 1,
+  "items": Array [
+    Object {
+      "count": 2,
+      "discount": 0.5,
+      "id": "i1",
+      "price": 100,
+    },
+    Object {
+      "count": 1,
+      "discount": 1,
+      "id": "i2",
+      "price": 200,
+    },
+  ],
+}
+`;
+
+exports[`doesn\`t decrement existing item below 0 1`] = `
+Object {
+  "discount": 1,
+  "items": Array [
+    Object {
+      "count": 2,
+      "discount": 0.5,
+      "id": "i1",
+      "price": 100,
+    },
+    Object {
+      "count": 0,
+      "discount": 1,
+      "id": "i2",
+      "price": 200,
+    },
+  ],
+}
+`;
+
+exports[`incrementing not existing item chages nothing 1`] = `
+Object {
+  "discount": 1,
+  "items": Array [
+    Object {
+      "count": 2,
+      "discount": 0.5,
+      "id": "i1",
+      "price": 100,
+    },
+    Object {
+      "count": 1,
+      "discount": 1,
+      "id": "i2",
+      "price": 200,
+    },
+  ],
+}
+`;

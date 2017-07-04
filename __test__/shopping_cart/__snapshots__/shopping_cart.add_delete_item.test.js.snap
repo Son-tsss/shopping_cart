@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`deleting not existing item should change nothing  1`] = `
+Object {
+  "discount": 1,
+  "items": Array [
+    Object {
+      "count": 1,
+      "discount": 1,
+      "id": "i1",
+      "price": 100,
+    },
+  ],
+}
+`;
+
+exports[`should add item to the items list 1`] = `
+Object {
+  "discount": 1,
+  "items": Array [
+    Object {
+      "count": 1,
+      "discount": 1,
+      "id": "i1",
+      "price": 100,
+    },
+  ],
+}
+`;
+
+exports[`should delete existing item from the items  1`] = `
+Object {
+  "discount": 1,
+  "items": Array [],
+}
+`;
+
+exports[`should increment existing item in the items list instead of adding 1`] = `
+Object {
+  "discount": 1,
+  "items": Array [
+    Object {
+      "count": 2,
+      "discount": 1,
+      "id": "i1",
+      "price": 100,
+    },
+  ],
+}
+`;

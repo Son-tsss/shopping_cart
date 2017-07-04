@@ -11,18 +11,8 @@ it('should add item to the items list', ()=>{
     shoppingCart.addItem(newItem)
 
     const {currentState: real} = shoppingCart.historyState
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 1,
-                discount: 1
-            }
-        ],
-        discount: 1
-    }
-    expect(real).toEqual(expected)
+
+    expect(real).toMatchSnapshot()
 })
 
 it('should increment existing item in the items list instead of adding', ()=>{
@@ -37,18 +27,8 @@ it('should increment existing item in the items list instead of adding', ()=>{
     shoppingCart.addItem(newItem)
 
     const {currentState: real} = shoppingCart.historyState
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 2,
-                discount: 1
-            }
-        ],
-        discount: 1
-    }
-    expect(real).toEqual(expected)
+
+    expect(real).toMatchSnapshot()
 })
 
 it('should delete existing item from the items ', ()=>{
@@ -63,11 +43,8 @@ it('should delete existing item from the items ', ()=>{
     shoppingCart.deleteItem(newItem.id)
 
     const {currentState: real} = shoppingCart.historyState
-    const expected = {
-        items: [],
-        discount: 1
-    }
-    expect(real).toEqual(expected)
+
+    expect(real).toMatchSnapshot()
 })
 
 it('deleting not existing item should change nothing ', ()=>{
@@ -82,17 +59,7 @@ it('deleting not existing item should change nothing ', ()=>{
     shoppingCart.deleteItem("i3")
 
     const {currentState: real} = shoppingCart.historyState
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 1,
-                discount: 1
-            }
-        ],
-        discount: 1
-    }
-    expect(real).toEqual(expected)
+
+    expect(real).toMatchSnapshot()
 })
 

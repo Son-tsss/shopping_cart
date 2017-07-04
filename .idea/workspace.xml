@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f01e787-30dc-4b70-9349-b31349ae4dbb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__test__/shopping_cart_reducer/shopping_cart_reducer.test.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/__test__/shopping_cart.adding_deleting_items.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/__test__/shopping_cart.bill.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/__test__/shopping_cart.discounts.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/__test__/shopping_cart.increment_decrement_item.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/__test__/shopping_cart.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shopping_cart.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping_cart.html" afterPath="$PROJECT_DIR$/shopping_cart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__test__/history/history.test.js" afterPath="$PROJECT_DIR$/__test__/history/history.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +21,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="history.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/history.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="3" lean-forward="false" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="shopping_cart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/shopping_cart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="-300">
+              <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -41,41 +53,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="history.test.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="42" lean-forward="true" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="history.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/__test__/history/history.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shopping_cart.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shopping_cart_reducer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shopping_cart_reducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shopping_cart.add_delete_item.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.add_delete_item.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="78" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="1462">
+              <caret line="86" column="47" lean-forward="true" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -84,8 +86,8 @@
       <file leaf-file-name="shopping_cart.increment_decrement_item.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.increment_decrement_item.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="112" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+            <state relative-caret-position="193">
+              <caret line="114" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,21 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopping_cart.undo_redo.test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shopping_cart.undo_redo.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.undo_redo.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="history.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/history.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="29" column="3" lean-forward="false" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="380">
+              <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -166,7 +158,6 @@
         <option value="$PROJECT_DIR$/__test__/shopping_cart.bill.test.js" />
         <option value="$PROJECT_DIR$/shopping_cart.js" />
         <option value="$PROJECT_DIR$/shopping_cart_reducer.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -180,7 +171,6 @@
         <option value="$PROJECT_DIR$/__test__/shopping_cart.add_delete_items.test.js" />
         <option value="$PROJECT_DIR$/__test__/history.test.js" />
         <option value="$PROJECT_DIR$/src/history.js" />
-        <option value="$PROJECT_DIR$/__test__/history/history.test.js" />
         <option value="$PROJECT_DIR$/__test__/shopping_cart_reducer/shopping_cart_reducer.discounts.test.js" />
         <option value="$PROJECT_DIR$/__test__/shopping_cart_reducer/shopping_cart_reducer.add_delete_items.test.js" />
         <option value="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.test.js" />
@@ -188,9 +178,11 @@
         <option value="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.increment_decrement_item.test.js" />
         <option value="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.discounts.test.js" />
         <option value="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.bill.js" />
-        <option value="$PROJECT_DIR$/src/shopping_cart.js" />
         <option value="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.bill.test.js" />
+        <option value="$PROJECT_DIR$/src/shopping_cart.js" />
         <option value="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.undo_redo.test.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/__test__/history/history.test.js" />
       </list>
     </option>
   </component>
@@ -210,10 +202,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="1" />
-    <option name="width" value="1036" />
-    <option name="height" value="733" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -255,39 +247,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping_cart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping_cart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="__test__" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping_cart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping_cart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="__test__" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping_cart" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,56 +288,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.should return correct bill">
-    <configuration default="false" name="shouldn`t decrement item below 0" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.should have next state empty after new chages">
+    <configuration default="false" name="should return true if there are previous states" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.increment_decrement_item.test.js" />
+      <test-file value="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.undo_redo.test.js" />
       <test-names>
-        <test-name value="shouldn`t decrement item below 0" />
+        <test-name value="should return true if there are previous states" />
       </test-names>
       <method />
     </configuration>
-    <configuration default="false" name="should apply discount to the existing item" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="should return false if there is no previous states" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.discounts.test.js" />
+      <test-file value="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.undo_redo.test.js" />
       <test-names>
-        <test-name value="should apply discount to the existing item" />
+        <test-name value="should return false if there is no previous states" />
       </test-names>
       <method />
     </configuration>
-    <configuration default="false" name="applying discount to not existing item should change nothing" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="should empty future states if there are new changes made" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.discounts.test.js" />
+      <test-file value="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.undo_redo.test.js" />
       <test-names>
-        <test-name value="applying discount to not existing item should change nothing" />
+        <test-name value="should empty future states if there are new changes made" />
       </test-names>
       <method />
     </configuration>
-    <configuration default="false" name="shopping_cart.bill.test.js" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="shopping_cart.undo_redo.test.js" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.bill.test.js" />
+      <test-file value="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.undo_redo.test.js" />
       <method />
     </configuration>
-    <configuration default="false" name="should return correct bill" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="should have next state empty after new chages" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.bill.test.js" />
+      <test-file value="$PROJECT_DIR$/__test__/history/history.test.js" />
       <test-names>
-        <test-name value="should return correct bill" />
+        <test-name value="should have next state empty after new chages" />
       </test-names>
       <method />
     </configuration>
@@ -448,19 +408,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Jest.shouldn`t decrement item below 0" />
-      <item index="1" class="java.lang.String" itemvalue="Jest.should apply discount to the existing item" />
-      <item index="2" class="java.lang.String" itemvalue="Jest.applying discount to not existing item should change nothing" />
-      <item index="3" class="java.lang.String" itemvalue="Jest.shopping_cart.bill.test.js" />
-      <item index="4" class="java.lang.String" itemvalue="Jest.should return correct bill" />
+      <item index="0" class="java.lang.String" itemvalue="Jest.should return true if there are previous states" />
+      <item index="1" class="java.lang.String" itemvalue="Jest.should return false if there is no previous states" />
+      <item index="2" class="java.lang.String" itemvalue="Jest.should empty future states if there are new changes made" />
+      <item index="3" class="java.lang.String" itemvalue="Jest.shopping_cart.undo_redo.test.js" />
+      <item index="4" class="java.lang.String" itemvalue="Jest.should have next state empty after new chages" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Jest.should return correct bill" />
-        <item index="1" class="java.lang.String" itemvalue="Jest.shopping_cart.bill.test.js" />
-        <item index="2" class="java.lang.String" itemvalue="Jest.applying discount to not existing item should change nothing" />
-        <item index="3" class="java.lang.String" itemvalue="Jest.should apply discount to the existing item" />
-        <item index="4" class="java.lang.String" itemvalue="Jest.shouldn`t decrement item below 0" />
+        <item index="0" class="java.lang.String" itemvalue="Jest.should have next state empty after new chages" />
+        <item index="1" class="java.lang.String" itemvalue="Jest.shopping_cart.undo_redo.test.js" />
+        <item index="2" class="java.lang.String" itemvalue="Jest.should empty future states if there are new changes made" />
+        <item index="3" class="java.lang.String" itemvalue="Jest.should return false if there is no previous states" />
+        <item index="4" class="java.lang.String" itemvalue="Jest.should return true if there are previous states" />
       </list>
     </recent_temporary>
   </component>
@@ -477,54 +437,54 @@
       <workItem from="1497982192585" duration="6697000" />
       <workItem from="1498057536760" duration="12876000" />
       <workItem from="1498661519856" duration="26593000" />
-      <workItem from="1499165051396" duration="14025000" />
+      <workItem from="1499165051396" duration="16082000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="applying_discount_to_not_existing_item_should_change_nothing - 2017.07.04 at 18h 07m 56s.xml">
-      <configuration name="applying discount to not existing item should change nothing" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="shopping_cart_undo_redo_test_js - 2017.07.04 at 22h 42m 37s.xml">
+      <configuration name="shopping_cart.undo_redo.test.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="deleting_not_existing_item_should_change_nothing_ - 2017.07.04 at 17h 59m 31s.xml">
-      <configuration name="deleting not existing item should change nothing " configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="should_empty_future_states_if_there_are_new_changes_made - 2017.07.04 at 22h 42m 21s.xml">
+      <configuration name="should empty future states if there are new changes made" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="shopping_cart_bill_test_js - 2017.07.04 at 18h 25m 10s.xml">
-      <configuration name="shopping_cart.bill.test.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="should_have_next_state_empty_after_new_chages - 2017.07.04 at 22h 52m 28s.xml">
+      <configuration name="should have next state empty after new chages" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_apply_discount_to_the_existing_item - 2017.07.04 at 18h 07m 03s.xml">
-      <configuration name="should apply discount to the existing item" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="should_have_prev_state_as_current_and_current_state_in_futureStates_after_undo_when_prev_states_are_empty - 2017.07.04 at 22h 23m 14s.xml">
+      <configuration name="should have prev state as current and current state in futureStates after undo when prev states are empty" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_decrement_existing_item_in_the_items_list_ - 2017.07.04 at 18h 03m 15s.xml">
-      <configuration name="should decrement existing item in the items list " configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="should_return_false_if_there_is_no_previous_states - 2017.07.04 at 22h 35m 39s.xml">
+      <configuration name="should return false if there is no previous states" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_return_correct_bill - 2017.07.04 at 18h 29m 12s.xml">
-      <configuration name="should return correct bill" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="should_return_false_if_there_is_no_previous_states - 2017.07.04 at 22h 35m 55s.xml">
+      <configuration name="should return false if there is no previous states" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_return_correct_bill - 2017.07.04 at 18h 30m 05s.xml">
-      <configuration name="should return correct bill" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="should_return_false_if_there_is_no_previous_states - 2017.07.04 at 22h 36m 15s.xml">
+      <configuration name="should return false if there is no previous states" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_return_correct_bill - 2017.07.04 at 18h 31m 40s.xml">
-      <configuration name="should return correct bill" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="should_return_true_if_there_are_previous_states - 2017.07.04 at 22h 34m 59s.xml">
+      <configuration name="should return true if there are previous states" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="should_return_correct_bill - 2017.07.04 at 18h 32m 15s.xml">
-      <configuration name="should return correct bill" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="shouldn`t_change_anything_if_there_is_no_previous_states - 2017.07.04 at 22h 33m 11s.xml">
+      <configuration name="shouldn`t change anything if there is no previous states" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="shouldn`t_decrement_item_below_0 - 2017.07.04 at 18h 05m 05s.xml">
-      <configuration name="shouldn`t decrement item below 0" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="shouldn`t_change_anything_if_there_is_no_previous_states - 2017.07.04 at 22h 33m 35s.xml">
+      <configuration name="shouldn`t change anything if there is no previous states" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60191000" />
+    <option name="totallyTimeSpent" value="62248000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="1" width="1036" height="733" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41683367" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21917808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981783" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50666666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26868907" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -698,21 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -722,22 +667,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/npm-debug.log" />
-    <entry file="file://$PROJECT_DIR$/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="3" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/items_reducer.js" />
     <entry file="file://$PROJECT_DIR$/__test__/shopping_cart_reducer/shopping_cart_reducer.increment_decrement_items.test.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -771,22 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__test__/history/history.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/history.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="29" column="3" lean-forward="false" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -811,29 +724,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.increment_decrement_item.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="112" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.discounts.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shopping_cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -845,10 +740,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.increment_decrement_item.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="114" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.undo_redo.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="380">
+          <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopping_cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/history.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="3" lean-forward="false" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="true" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__test__/history/history.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="47" lean-forward="true" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
           <folding />
         </state>
       </provider>

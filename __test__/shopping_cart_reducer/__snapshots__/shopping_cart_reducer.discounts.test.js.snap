@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`applying discount to not existing item should change nothing 1`] = `
+Object {
+  "discount": 1,
+  "items": Array [
+    Object {
+      "count": 2,
+      "discount": 0.5,
+      "id": "i1",
+      "price": 100,
+    },
+    Object {
+      "count": 1,
+      "discount": 1,
+      "id": "i2",
+      "price": 200,
+    },
+  ],
+}
+`;
+
+exports[`should apply discount to the cart 1`] = `
+Object {
+  "discount": 0.75,
+  "items": Array [
+    Object {
+      "count": 2,
+      "discount": 0.5,
+      "id": "i1",
+      "price": 100,
+    },
+    Object {
+      "count": 1,
+      "discount": 1,
+      "id": "i2",
+      "price": 200,
+    },
+  ],
+}
+`;
+
+exports[`should apply discount to the item 1`] = `
+Object {
+  "discount": 1,
+  "items": Array [
+    Object {
+      "count": 2,
+      "discount": 0.5,
+      "id": "i1",
+      "price": 100,
+    },
+    Object {
+      "count": 1,
+      "discount": 0.5,
+      "id": "i2",
+      "price": 200,
+    },
+  ],
+}
+`;

@@ -16,13 +16,8 @@ it("should return reducer", () => {
 it("should have initial state of given reducer as previous state and correct current state", () => {
     const reducerWithHistory = history(reducer)
     const real = reducerWithHistory(undefined, {type: "INCR"})
-    const expected = {
-            previousStates: [0],
-            currentState: 1,
-            futureStates: []
-        }
 
-    expect(real).toEqual(expected)
+    expect(real).toMatchSnapshot()
 })
 
 it("should have new state of given reducer as current state", () => {
@@ -36,13 +31,7 @@ it("should have new state of given reducer as current state", () => {
 
     const real = reducerWithHistory(initialState,{type: "INCR"})
 
-    const expected = {
-        previousStates: [0,1,2],
-        currentState: 3,
-        futureStates: []
-    }
-
-    expect(real).toEqual(expected)
+    expect(real).toMatchSnapshot()
 })
 
 it("should have prev state as current and current state in futureStates after undo", () => {
@@ -55,13 +44,7 @@ it("should have prev state as current and current state in futureStates after un
     }
     const real = reducerWithHistory(initialState,{type: "UNDO"})
 
-    const expected = {
-        previousStates: [0],
-        currentState: 1,
-        futureStates: [2]
-    }
-
-    expect(real).toEqual(expected)
+    expect(real).toMatchSnapshot()
 })
 
 it("should have next state as current and current state in previousStates after redo", () => {
@@ -80,5 +63,19 @@ it("should have next state as current and current state in previousStates after 
         futureStates: [4]
     }
 
-    expect(real).toEqual(expected)
+    expect(real).toMatchSnapshot()
+})
+
+it("should have next state empty after new changes", () => {
+    const reducerWithHistory = history(reducer)
+
+    const initialState = {
+        previousStates: [0,1],
+        currentState: 2,
+        futureStates: [4, 3]
+    }
+
+    let real = reducerWithHistory(initialState, {type: "INCR"})
+
+    expect(real).toMatchSnapshot()
 })

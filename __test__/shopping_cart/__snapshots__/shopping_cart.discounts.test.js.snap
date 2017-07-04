@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`applying discount to not existing item should change nothing 1`] = `
+Object {
+  "currentState": Object {
+    "discount": 1,
+    "items": Array [
+      Object {
+        "count": 1,
+        "discount": 1,
+        "id": "i1",
+        "price": 100,
+      },
+    ],
+  },
+  "futureStates": Array [],
+  "previousStates": Array [
+    Object {
+      "discount": 1,
+      "items": Array [],
+    },
+    Object {
+      "discount": 1,
+      "items": Array [],
+    },
+    Object {
+      "discount": 1,
+      "items": Array [
+        Object {
+          "count": 1,
+          "discount": 1,
+          "id": "i1",
+          "price": 100,
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`should apply discount to cart 1`] = `
+Object {
+  "currentState": Object {
+    "discount": 0.5,
+    "items": Array [],
+  },
+  "futureStates": Array [],
+  "previousStates": Array [
+    Object {
+      "discount": 1,
+      "items": Array [],
+    },
+    Object {
+      "discount": 1,
+      "items": Array [],
+    },
+  ],
+}
+`;
+
+exports[`should apply discount to the existing item 1`] = `
+Object {
+  "currentState": Object {
+    "discount": 1,
+    "items": Array [
+      Object {
+        "count": 1,
+        "discount": 0.5,
+        "id": "i1",
+        "price": 100,
+      },
+    ],
+  },
+  "futureStates": Array [],
+  "previousStates": Array [
+    Object {
+      "discount": 1,
+      "items": Array [],
+    },
+    Object {
+      "discount": 1,
+      "items": Array [],
+    },
+    Object {
+      "discount": 1,
+      "items": Array [
+        Object {
+          "count": 1,
+          "discount": 1,
+          "id": "i1",
+          "price": 100,
+        },
+      ],
+    },
+  ],
+}
+`;

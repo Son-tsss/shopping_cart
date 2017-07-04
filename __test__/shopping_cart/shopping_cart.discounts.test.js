@@ -11,19 +11,9 @@ it('should apply discount to the existing item', ()=>{
     shoppingCart.addItem(newItem)
     shoppingCart.applyDiscountToItem(0.5, newItem.id)
 
-    const {currentState: real} = shoppingCart.historyState
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 1,
-                discount: 0.5
-            }
-        ],
-        discount: 1
-    }
-    expect(real).toEqual(expected)
+    const real = shoppingCart.historyState
+
+    expect(real).toMatchSnapshot()
 })
 
 it('applying discount to not existing item should change nothing', ()=>{
@@ -37,19 +27,9 @@ it('applying discount to not existing item should change nothing', ()=>{
     shoppingCart.addItem(newItem)
     shoppingCart.applyDiscountToItem(0.5, "i3")
 
-    const {currentState: real} = shoppingCart.historyState
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 1,
-                discount: 1
-            }
-        ],
-        discount: 1
-    }
-    expect(real).toEqual(expected)
+    const real = shoppingCart.historyState
+
+    expect(real).toMatchSnapshot()
 })
 
 it('should apply discount to cart', ()=>{
@@ -57,10 +37,7 @@ it('should apply discount to cart', ()=>{
 
     shoppingCart.applyDiscountToCart(0.5)
 
-    const {currentState: real} = shoppingCart.historyState
-    const expected = {
-        items: [],
-        discount: 0.5
-    }
-    expect(real).toEqual(expected)
+    const real = shoppingCart.historyState
+
+    expect(real).toMatchSnapshot()
 })

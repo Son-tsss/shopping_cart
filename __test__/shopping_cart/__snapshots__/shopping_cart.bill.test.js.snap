@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return correct bill 1`] = `
+Object {
+  "discount": 0.75,
+  "items": Array [
+    Object {
+      "count": 1,
+      "discount": 0.5,
+      "finalPrice": 50,
+      "id": "i1",
+      "price": 100,
+    },
+    Object {
+      "count": 2,
+      "discount": 0.75,
+      "finalPrice": 300,
+      "id": "i2",
+      "price": 200,
+    },
+  ],
+  "price": 500,
+  "total": 350,
+}
+`;

@@ -23,27 +23,5 @@ it('should return correct bill', () => {
 
     const real = shoppingCart.getBill()
 
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 1,
-                discount: 0.5,
-                finalPrice: 50
-            },
-            {
-                id: "i2",
-                price: 200,
-                count: 2,
-                discount: 0.75,
-                finalPrice: 300
-            }
-        ],
-        discount: 0.75,
-        price: 500,
-        total: 350
-    }
-
-    expect(real).toEqual(expected)
+    expect(real).toMatchSnapshot()
 })

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`new shopping cart created with empty items list 1`] = `
+Object {
+  "discount": 1,
+  "items": Array [],
+}
+`;

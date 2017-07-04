@@ -13,19 +13,9 @@ it('should undo the last changes', ()=>{
     shoppingCart.incrementItem(newItem.id)
     shoppingCart.undo()
 
-    const {currentState: real} = shoppingCart.historyState
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 2,
-                discount: 1
-            }
-        ],
-        discount: 1
-    }
-    expect(real).toEqual(expected)
+    const real = shoppingCart.historyState
+
+    expect(real).toMatchSnapshot()
 })
 
 it('undo shouldn`t change anything if there is no previous states', ()=>{
@@ -43,12 +33,9 @@ it('undo shouldn`t change anything if there is no previous states', ()=>{
     shoppingCart.undo()
     shoppingCart.undo()
 
-    const {currentState: real} = shoppingCart.historyState
-    const expected = {
-        items: [],
-        discount: 1
-    }
-    expect(real).toEqual(expected)
+    const real = shoppingCart.historyState
+
+    expect(real).toMatchSnapshot()
 })
 
 it('canUndo should return true if there are previous states', ()=>{
@@ -91,19 +78,9 @@ it('should redo the last changes', ()=>{
     shoppingCart.undo()
     shoppingCart.redo()
 
-    const {currentState: real} = shoppingCart.historyState
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 3,
-                discount: 1
-            }
-        ],
-        discount: 1
-    }
-    expect(real).toEqual(expected)
+    const real = shoppingCart.historyState
+
+    expect(real).toMatchSnapshot()
 })
 
 it('redo shouldn`t change anything if there is no future states', ()=>{
@@ -118,19 +95,9 @@ it('redo shouldn`t change anything if there is no future states', ()=>{
     shoppingCart.incrementItem(newItem.id)
     shoppingCart.redo()
 
-    const {currentState: real} = shoppingCart.historyState
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 2,
-                discount: 1
-            }
-        ],
-        discount: 1
-    }
-    expect(real).toEqual(expected)
+    const real = shoppingCart.historyState
+
+    expect(real).toMatchSnapshot()
 })
 
 it('canRedo should return true if there are future states', ()=>{

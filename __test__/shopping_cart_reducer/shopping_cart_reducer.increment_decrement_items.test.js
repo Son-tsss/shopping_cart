@@ -63,25 +63,7 @@ it('incrementing not existing item chages nothing', () => {
 
     const real = shoppingCartReducer(prevState, {type: "INCREMENT_ITEM", id: "i3"});
 
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 2,
-                discount: 0.5
-            },
-            {
-                id: "i2",
-                price: 200,
-                count: 1,
-                discount: 1
-            }
-        ],
-        discount: 1
-    }
-
-    expect(real).toEqual(expected);
+    expect(real).toMatchSnapshot();
 });
 
 it('decrements existing item', () => {
@@ -105,25 +87,7 @@ it('decrements existing item', () => {
 
     const real = shoppingCartReducer(prevState, {type: "DECREMENT_ITEM", id: "i2"});
 
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 2,
-                discount: 0.5
-            },
-            {
-                id: "i2",
-                price: 200,
-                count: 1,
-                discount: 1
-            }
-        ],
-        discount: 1
-    }
-
-    expect(real).toEqual(expected);
+    expect(real).toMatchSnapshot();
 });
 
 it('doesn`t decrement existing item below 0', () => {
@@ -147,25 +111,7 @@ it('doesn`t decrement existing item below 0', () => {
 
     const real = shoppingCartReducer(prevState, {type: "DECREMENT_ITEM", id: "i2"});
 
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 2,
-                discount: 0.5
-            },
-            {
-                id: "i2",
-                price: 200,
-                count: 0,
-                discount: 1
-            }
-        ],
-        discount: 1
-    }
-
-    expect(real).toEqual(expected);
+    expect(real).toMatchSnapshot();
 });
 
 it('decrementing not existing item changes nothing', () => {
@@ -189,23 +135,5 @@ it('decrementing not existing item changes nothing', () => {
 
     const real = shoppingCartReducer(prevState, {type: "DECREMENT_ITEM", id: "i3"});
 
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 2,
-                discount: 0.5
-            },
-            {
-                id: "i2",
-                price: 200,
-                count: 1,
-                discount: 1
-            }
-        ],
-        discount: 1
-    }
-
-    expect(real).toEqual(expected);
+    expect(real).toMatchSnapshot();
 });

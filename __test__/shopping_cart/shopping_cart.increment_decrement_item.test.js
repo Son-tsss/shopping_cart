@@ -11,19 +11,9 @@ it('should increment existing item in the items list', ()=>{
     shoppingCart.addItem(newItem)
     shoppingCart.incrementItem(newItem.id)
 
-    const {currentState: real} = shoppingCart.historyState
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 2,
-                discount: 1
-            }
-        ],
-        discount: 1
-    }
-    expect(real).toEqual(expected)
+    const real = shoppingCart.historyState
+
+    expect(real).toMatchSnapshot()
 })
 
 it('incrementing not existing item should change nothing', ()=>{
@@ -37,19 +27,9 @@ it('incrementing not existing item should change nothing', ()=>{
     shoppingCart.addItem(newItem)
     shoppingCart.incrementItem("i3")
 
-    const {currentState: real} = shoppingCart.historyState
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 1,
-                discount: 1
-            }
-        ],
-        discount: 1
-    }
-    expect(real).toEqual(expected)
+    const real = shoppingCart.historyState
+
+    expect(real).toMatchSnapshot()
 })
 
 it('should decrement existing item in the items list ', ()=>{
@@ -63,19 +43,9 @@ it('should decrement existing item in the items list ', ()=>{
     shoppingCart.addItem(newItem)
     shoppingCart.decrementItem(newItem.id)
 
-    const {currentState: real} = shoppingCart.historyState
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 0,
-                discount: 1
-            }
-        ],
-        discount: 1
-    }
-    expect(real).toEqual(expected)
+    const real = shoppingCart.historyState
+
+    expect(real).toMatchSnapshot()
 })
 
 it('decrementing not existing item should change nothing ', ()=>{
@@ -89,19 +59,9 @@ it('decrementing not existing item should change nothing ', ()=>{
     shoppingCart.addItem(newItem)
     shoppingCart.decrementItem("i3")
 
-    const {currentState: real} = shoppingCart.historyState
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 1,
-                discount: 1
-            }
-        ],
-        discount: 1
-    }
-    expect(real).toEqual(expected)
+    const real = shoppingCart.historyState
+
+    expect(real).toMatchSnapshot()
 })
 
 it('shouldn`t decrement item below 0', ()=>{
@@ -116,18 +76,8 @@ it('shouldn`t decrement item below 0', ()=>{
     shoppingCart.decrementItem(newItem.id)
     shoppingCart.decrementItem(newItem.id)
 
-    const {currentState: real} = shoppingCart.historyState
-    const expected = {
-        items: [
-            {
-                id: "i1",
-                price: 100,
-                count: 0,
-                discount: 1
-            }
-        ],
-        discount: 1
-    }
-    expect(real).toEqual(expected)
+    const real = shoppingCart.historyState
+
+    expect(real).toMatchSnapshot()
 })
 
