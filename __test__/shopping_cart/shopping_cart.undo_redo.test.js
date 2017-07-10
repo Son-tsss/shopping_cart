@@ -1,4 +1,4 @@
-import ShoppingCart from '../../src/shopping_cart'
+import ShoppingCart from '../../src/shopping_cart/shopping_cart_actions'
 
 it('should undo the last changes', ()=>{
     const shoppingCart = new ShoppingCart
@@ -126,7 +126,7 @@ it('canUndo should return false if there is no future states', ()=>{
     expect(real).toEqual(expected)
 })
 
-it('should empty future states if there are new changes made', ()=>{
+it('should empty future states if there are new changes made', ()=>{//test redo function
     const shoppingCart = new ShoppingCart
 
     const newItem  = {
@@ -144,3 +144,5 @@ it('should empty future states if there are new changes made', ()=>{
 
     expect(real).toEqual(expected)
 })
+
+//TODO: test undo when no prev states

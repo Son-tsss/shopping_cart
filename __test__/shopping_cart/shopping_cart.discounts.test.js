@@ -1,4 +1,4 @@
-import ShoppingCart from '../../src/shopping_cart'
+import ShoppingCart from '../../src/shopping_cart/shopping_cart_actions'
 
 it('should apply discount to the existing item', ()=>{
     const shoppingCart = new ShoppingCart

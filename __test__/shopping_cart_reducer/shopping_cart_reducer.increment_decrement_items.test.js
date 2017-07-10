@@ -1,4 +1,4 @@
-import shoppingCartReducer from "../../src/shopping_cart_reducer"
+import shoppingCartReducer from "../../src/shopping_cart/shopping_cart_reducer"
 
 it('increments existing item', () => {
     const prevState = {
@@ -7,16 +7,16 @@ it('increments existing item', () => {
                 id: "i1",
                 price: 100,
                 count: 2,
-                discount: 0.5
+                coupons: 0.5
             },
             {
                 id: "i2",
                 price: 200,
                 count: 1,
-                discount: 1
+                coupons: 1
             }
         ],
-        discount: 1
+        coupons: 1
     }
 
     const real = shoppingCartReducer(prevState, {type: "INCREMENT_ITEM", id: "i2"});
@@ -27,16 +27,16 @@ it('increments existing item', () => {
                 id: "i1",
                 price: 100,
                 count: 2,
-                discount: 0.5
+                coupons: 0.5
             },
             {
                 id: "i2",
                 price: 200,
                 count: 2,
-                discount: 1
+                coupons: 1
             }
         ],
-        discount: 1
+        coupons: 1
     }
 
     expect(real).toEqual(expected);
@@ -49,16 +49,16 @@ it('incrementing not existing item chages nothing', () => {
                 id: "i1",
                 price: 100,
                 count: 2,
-                discount: 0.5
+                coupons: 0.5
             },
             {
                 id: "i2",
                 price: 200,
                 count: 1,
-                discount: 1
+                coupons: 1
             }
         ],
-        discount: 1
+        coupons: 1
     }
 
     const real = shoppingCartReducer(prevState, {type: "INCREMENT_ITEM", id: "i3"});
@@ -73,16 +73,16 @@ it('decrements existing item', () => {
                 id: "i1",
                 price: 100,
                 count: 2,
-                discount: 0.5
+                coupons: 0.5
             },
             {
                 id: "i2",
                 price: 200,
                 count: 2,
-                discount: 1
+                coupons: 1
             }
         ],
-        discount: 1
+        coupons: 1
     }
 
     const real = shoppingCartReducer(prevState, {type: "DECREMENT_ITEM", id: "i2"});
@@ -97,16 +97,16 @@ it('doesn`t decrement existing item below 0', () => {
                 id: "i1",
                 price: 100,
                 count: 2,
-                discount: 0.5
+                coupons: 0.5
             },
             {
                 id: "i2",
                 price: 200,
                 count: 0,
-                discount: 1
+                coupons: 1
             }
         ],
-        discount: 1
+        coupons: 1
     }
 
     const real = shoppingCartReducer(prevState, {type: "DECREMENT_ITEM", id: "i2"});
@@ -121,16 +121,16 @@ it('decrementing not existing item changes nothing', () => {
                 id: "i1",
                 price: 100,
                 count: 2,
-                discount: 0.5
+                coupons: 0.5
             },
             {
                 id: "i2",
                 price: 200,
                 count: 1,
-                discount: 1
+                coupons: 1
             }
         ],
-        discount: 1
+        coupons: 1
     }
 
     const real = shoppingCartReducer(prevState, {type: "DECREMENT_ITEM", id: "i3"});

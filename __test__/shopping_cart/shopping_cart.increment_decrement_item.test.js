@@ -1,4 +1,4 @@
-import ShoppingCart from '../../src/shopping_cart'
+import ShoppingCart from '../../src/shopping_cart/shopping_cart_actions'
 
 it('should increment existing item in the items list', ()=>{
     const shoppingCart = new ShoppingCart

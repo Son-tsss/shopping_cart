@@ -1,26 +1,26 @@
-import shoppingCartReducer from "../../src/shopping_cart_reducer"
+import shoppingCartReducer from "../../src/shopping_cart/shopping_cart_reducer"
 
-it('should apply discount to the item', () => {
+it('should apply coupons to the item', () => {
     const prevState = {
         items: [
             {
                 id: "i1",
                 price: 100,
                 count: 2,
-                discount: 0.5
+                coupons: 0.5
             },
             {
                 id: "i2",
                 price: 200,
                 count: 1,
-                discount: 1
+                coupons: 1
             }
         ],
-        discount: 1
+        coupons: 1
     }
 
     const discount = {
-        discount: 0.5,
+        coupons: 0.5,
         id: "i2"
     }
 
@@ -29,27 +29,27 @@ it('should apply discount to the item', () => {
     expect(real).toMatchSnapshot();
 });
 
-it('applying discount to not existing item should change nothing', () => {
+it('applying coupons to not existing item should change nothing', () => {
     const prevState = {
         items: [
             {
                 id: "i1",
                 price: 100,
                 count: 2,
-                discount: 0.5
+                coupons: 0.5
             },
             {
                 id: "i2",
                 price: 200,
                 count: 1,
-                discount: 1
+                coupons: 1
             }
         ],
-        discount: 1
+        coupons: 1
     }
 
     const discount = {
-        discount: 0.5,
+        coupons: 0.5,
         id: "i3"
     }
 
@@ -58,26 +58,26 @@ it('applying discount to not existing item should change nothing', () => {
     expect(real).toMatchSnapshot();
 });
 
-it('should apply discount to the cart', () => {
+it('should apply coupons to the cart', () => {
     const prevState = {
         items: [
             {
                 id: "i1",
                 price: 100,
                 count: 2,
-                discount: 0.5
+                coupons: 0.5
             },
             {
                 id: "i2",
                 price: 200,
                 count: 1,
-                discount: 1
+                coupons: 1
             }
         ],
-        discount: 1
+        coupons: 1
     }
 
-    const real = shoppingCartReducer(prevState, {type: "APPLY_DISCOUNT_TO_CART", discount: 0.75});
+    const real = shoppingCartReducer(prevState, {type: "APPLY_DISCOUNT_TO_CART", coupons: 0.75});
 
     expect(real).toMatchSnapshot();
 });

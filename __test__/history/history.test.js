@@ -1,4 +1,4 @@
-import history from "../../src/history"
+import history from "../../src/history/history_reducer"
 
 const reducer = (state = 0, action) => {
     switch (action.type) {
