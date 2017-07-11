@@ -9,7 +9,14 @@ export default [
         id: "i2",
         price: 200,
         info: {
-            name: "gangsta rap"
+            name: "soft kitty"
+        }
+    },
+    {
+        id: "i3",
+        price: 250,
+        info: {
+            name: "warm kitty"
         }
     }
 ]

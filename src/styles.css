@@ -1,7 +1,9 @@
-.products-list{
+.products-list, coupons-list{
     display: flex;
+    background: #cccccc;
+    width: 50%;
+    padding: 25px;
+    margin: 25px;
 }
 
-.products-list-item{
-    display: inline-flex;
-}
+

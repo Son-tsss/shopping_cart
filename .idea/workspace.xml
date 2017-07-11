@@ -5,28 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f01e787-30dc-4b70-9349-b31349ae4dbb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/history/history_reducer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shopping_cart/shopping_cart_actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shopping_cart/shopping_cart_reducer.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/history.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/shopping_cart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/shopping_cart_reducer.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__test__/history/history.test.js" afterPath="$PROJECT_DIR$/__test__/history/history.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.add_delete_item.test.js" afterPath="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.add_delete_item.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.bill.test.js" afterPath="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.bill.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.discounts.test.js" afterPath="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.discounts.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.increment_decrement_item.test.js" afterPath="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.increment_decrement_item.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.test.js" afterPath="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.undo_redo.test.js" afterPath="$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.undo_redo.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__test__/shopping_cart_reducer/shopping_cart_reducer.add_delete_items.test.js" afterPath="$PROJECT_DIR$/__test__/shopping_cart_reducer/shopping_cart_reducer.add_delete_items.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__test__/shopping_cart_reducer/shopping_cart_reducer.discounts.test.js" afterPath="$PROJECT_DIR$/__test__/shopping_cart_reducer/shopping_cart_reducer.discounts.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__test__/shopping_cart_reducer/shopping_cart_reducer.increment_decrement_items.test.js" afterPath="$PROJECT_DIR$/__test__/shopping_cart_reducer/shopping_cart_reducer.increment_decrement_items.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__test__/shopping_cart_reducer/shopping_cart_reducer.test.js" afterPath="$PROJECT_DIR$/__test__/shopping_cart_reducer/shopping_cart_reducer.test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bundle.js" afterPath="$PROJECT_DIR$/dist/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles.css" afterPath="$PROJECT_DIR$/dist/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/products/index.js" afterPath="$PROJECT_DIR$/src/products/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles.css" afterPath="$PROJECT_DIR$/src/styles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,74 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="shopping_cart_selector.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shopping_cart/shopping_cart_selector.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-              <folding>
-                <marker date="1499706722951" expanded="true" signature="211:359" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="coupons_list.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/components/coupons_list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <marker date="1499706404184" expanded="true" signature="188:581" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bill.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/components/bill.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-              <folding>
-                <marker date="1499707949087" expanded="true" signature="91:691" ph="&lt;div/&gt;" />
-                <marker date="1499707949087" expanded="true" signature="548:680" ph="&lt;div/&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_bill.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/containers/user_bill.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-                <marker date="1499707949087" expanded="true" signature="208:291" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/components/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -127,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -137,21 +57,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_shopping_cart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/containers/user_shopping_cart.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/history/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="17">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shopping_cart_actions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shopping_cart/shopping_cart_actions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="history_selector.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/history/history_selector.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shopping_cart_selector.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shopping_cart/shopping_cart_selector.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/products/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -179,9 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/reducers/shopping_cart.js" />
-        <option value="$PROJECT_DIR$/src/actions/history.js" />
-        <option value="$PROJECT_DIR$/src/action_types/index.js" />
         <option value="$PROJECT_DIR$/src/components/products.js" />
         <option value="$PROJECT_DIR$/src/components/AddButton.js" />
         <option value="$PROJECT_DIR$/src/products/products.js" />
@@ -217,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/app/containers/predefined_coupons_list.js" />
         <option value="$PROJECT_DIR$/src/app/components/product.js" />
         <option value="$PROJECT_DIR$/src/shopping_cart/shopping_cart_reducer.js" />
-        <option value="$PROJECT_DIR$/src/shopping_cart/shopping_cart_actions.js" />
         <option value="$PROJECT_DIR$/src/app/components/shopping_cart.js" />
         <option value="$PROJECT_DIR$/src/app/components/shopping_cart_item.js" />
         <option value="$PROJECT_DIR$/src/coupons/index.js" />
@@ -229,7 +195,11 @@
         <option value="$PROJECT_DIR$/src/app/components/app.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/products/index.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/styles.css" />
         <option value="$PROJECT_DIR$/dist/styles.css" />
+        <option value="$PROJECT_DIR$/src/shopping_cart/shopping_cart_actions.js" />
       </list>
     </option>
   </component>
@@ -307,7 +277,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping_cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping_cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping_cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping_cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping_cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="history" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping_cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping_cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping_cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping_cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="__test__" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping_cart_reducer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -517,7 +559,7 @@
       <workItem from="1498057536760" duration="12876000" />
       <workItem from="1498661519856" duration="26593000" />
       <workItem from="1499165051396" duration="20312000" />
-      <workItem from="1499339977381" duration="41982000" />
+      <workItem from="1499339977381" duration="43796000" />
     </task>
     <servers />
   </component>
@@ -554,7 +596,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108460000" />
+    <option name="totallyTimeSpent" value="110274000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -568,14 +610,14 @@
   <component name="ToolWindowManager">
     <frame x="1912" y="-7" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21917808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21917808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981783" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26845637" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26845637" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -599,14 +641,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/__test__/shopping_cart/shopping_cart.bill.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__test__/shopping_cart/__snapshots__/shopping_cart.discounts.test.js.snap">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -712,45 +746,45 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1499710894234" expanded="true" signature="883882:883903" ph="[...]" />
-            <marker date="1499710894234" expanded="true" signature="858924:859908" ph="{...}" />
-            <marker date="1499710894234" expanded="true" signature="859901:859906" ph="/*...*/" />
-            <marker date="1499710894234" expanded="true" signature="859911:859920" ph="/*...*/" />
-            <marker date="1499710894234" expanded="true" signature="859921:859926" ph="/*...*/" />
-            <marker date="1499710894234" expanded="true" signature="859975:861272" ph="{...}" />
-            <marker date="1499710894234" expanded="true" signature="860487:861229" ph="{...}" />
-            <marker date="1499710894234" expanded="true" signature="860951:861039" ph="{...}" />
-            <marker date="1499710894234" expanded="true" signature="860981:861037" ph="{...}" />
-            <marker date="1499710894234" expanded="true" signature="861265:861270" ph="/*...*/" />
-            <marker date="1499710894234" expanded="true" signature="861275:861284" ph="/*...*/" />
-            <marker date="1499710894234" expanded="true" signature="861285:861290" ph="/*...*/" />
-            <marker date="1499710894234" expanded="true" signature="861339:862075" ph="{...}" />
-            <marker date="1499710894234" expanded="true" signature="861646:862037" ph="{...}" />
-            <marker date="1499710894234" expanded="true" signature="862068:862073" ph="/*...*/" />
-            <marker date="1499710894234" expanded="true" signature="862078:862087" ph="/*...*/" />
-            <marker date="1499710894234" expanded="true" signature="862088:862093" ph="/*...*/" />
-            <marker date="1499710894234" expanded="true" signature="862142:862648" ph="{...}" />
-            <marker date="1499710894234" expanded="true" signature="862453:862608" ph="{...}" />
-            <marker date="1499710894234" expanded="true" signature="862641:862646" ph="/*...*/" />
-            <marker date="1499710894234" expanded="true" signature="862651:862660" ph="/*...*/" />
-            <marker date="1499710894234" expanded="true" signature="862661:862666" ph="/*...*/" />
-            <marker date="1499710894234" expanded="true" signature="862715:863959" ph="{...}" />
-            <marker date="1499710894234" expanded="true" signature="863024:863206" ph="{...}" />
-            <marker date="1499710894234" expanded="true" signature="863274:863380" ph="{...}" />
-            <marker date="1499710894234" expanded="true" signature="863457:863569" ph="{...}" />
-            <marker date="1499710894234" expanded="true" signature="863646:863755" ph="{...}" />
-            <marker date="1499710894234" expanded="true" signature="863826:863949" ph="{...}" />
-            <marker date="1499710894234" expanded="true" signature="863952:863957" ph="/*...*/" />
-            <marker date="1499710894234" expanded="true" signature="863962:863971" ph="/*...*/" />
-            <marker date="1499710894234" expanded="true" signature="863972:863977" ph="/*...*/" />
-            <marker date="1499710894234" expanded="true" signature="883882:883891" ph="{...}" />
-            <marker date="1499710894234" expanded="true" signature="864130:864293" ph="[...]" />
-            <marker date="1499710894234" expanded="true" signature="864131:864211" ph="{&quot;id&quot;: &quot;i1&quot;...}" />
-            <marker date="1499710894234" expanded="true" signature="864173:864209" ph="{&quot;name&quot;: &quot;pink unicorn&quot;...}" />
-            <marker date="1499710894234" expanded="true" signature="864213:864292" ph="{&quot;id&quot;: &quot;i2&quot;...}" />
-            <marker date="1499710894234" expanded="true" signature="864255:864290" ph="{&quot;name&quot;: &quot;gangsta rap&quot;...}" />
-            <marker date="1499710894234" expanded="true" signature="883884:883889" ph="/*...*/" />
-            <marker date="1499710894234" expanded="true" signature="883893:883901" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="883961:883982" ph="[...]" />
+            <marker date="1499759502119" expanded="true" signature="858924:859908" ph="{...}" />
+            <marker date="1499759502119" expanded="true" signature="859901:859906" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="859911:859920" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="859921:859926" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="859975:861272" ph="{...}" />
+            <marker date="1499759502119" expanded="true" signature="860487:861229" ph="{...}" />
+            <marker date="1499759502119" expanded="true" signature="860951:861039" ph="{...}" />
+            <marker date="1499759502119" expanded="true" signature="860981:861037" ph="{...}" />
+            <marker date="1499759502119" expanded="true" signature="861265:861270" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="861275:861284" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="861285:861290" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="861339:862075" ph="{...}" />
+            <marker date="1499759502119" expanded="true" signature="861646:862037" ph="{...}" />
+            <marker date="1499759502119" expanded="true" signature="862068:862073" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="862078:862087" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="862088:862093" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="862142:862648" ph="{...}" />
+            <marker date="1499759502119" expanded="true" signature="862453:862608" ph="{...}" />
+            <marker date="1499759502119" expanded="true" signature="862641:862646" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="862651:862660" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="862661:862666" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="862715:863959" ph="{...}" />
+            <marker date="1499759502119" expanded="true" signature="863024:863206" ph="{...}" />
+            <marker date="1499759502119" expanded="true" signature="863274:863380" ph="{...}" />
+            <marker date="1499759502119" expanded="true" signature="863457:863569" ph="{...}" />
+            <marker date="1499759502119" expanded="true" signature="863646:863755" ph="{...}" />
+            <marker date="1499759502119" expanded="true" signature="863826:863949" ph="{...}" />
+            <marker date="1499759502119" expanded="true" signature="863952:863957" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="863962:863971" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="863972:863977" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="883961:883970" ph="{...}" />
+            <marker date="1499759502119" expanded="true" signature="864130:864293" ph="[...]" />
+            <marker date="1499759502119" expanded="true" signature="864131:864211" ph="{&quot;id&quot;: &quot;i1&quot;...}" />
+            <marker date="1499759502119" expanded="true" signature="864173:864209" ph="{&quot;name&quot;: &quot;pink unicorn&quot;...}" />
+            <marker date="1499759502119" expanded="true" signature="864213:864292" ph="{&quot;id&quot;: &quot;i2&quot;...}" />
+            <marker date="1499759502119" expanded="true" signature="864255:864290" ph="{&quot;name&quot;: &quot;gangsta rap&quot;...}" />
+            <marker date="1499759502119" expanded="true" signature="883963:883968" ph="/*...*/" />
+            <marker date="1499759502119" expanded="true" signature="883972:883980" ph="/*...*/" />
           </folding>
         </state>
       </provider>
@@ -817,14 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/history/history_selector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/shopping_cart/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -869,28 +895,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/history/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/products/coupons.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/products/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -937,14 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shopping_cart/shopping_cart_actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1002,16 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shopping_cart/shopping_cart_selector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <marker date="1499706722951" expanded="true" signature="211:359" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/bill.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1052,14 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1068,18 +1050,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
+    <entry file="file://$PROJECT_DIR$/src/products/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/history/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/history/history_selector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopping_cart/shopping_cart_selector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopping_cart/shopping_cart_actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>

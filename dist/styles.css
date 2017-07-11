@@ -1,19 +1,10 @@
-.products-list, .coupons-list {
-    display: inline-flex;
-    width: 48%;
-    justify-content: space-around;
-    border: 1px solid #cccccc;
-    margin: 25px;
-    padding: 25px;
+.products-list, .coupons-list, .shopping-cart{
+    display: flex;
     background: #cccccc;
+    width: 50%;
+    padding: 25px;
+    margin: 25px;
+    justify-content: space-around;
 }
 
-.shopping-cart{
-    display: inline-flex;
-    width: 75%;
-    justify-content: space-around;
-    border: 1px solid #cccccc;
-    margin: 25px auto;
-    padding: 25px;
-    background: #cccccc;
-}
+
