@@ -1,0 +1,7 @@
+.products-list{
+    display: flex;
+}
+
+.products-list-item{
+    display: inline-flex;
+}
