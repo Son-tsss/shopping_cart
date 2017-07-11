@@ -1,4 +1,4 @@
-.products-list, coupons-list{
+.products-list, .coupons-list, .shopping-cart{
     display: flex;
     background: #cccccc;
     width: 50%;
