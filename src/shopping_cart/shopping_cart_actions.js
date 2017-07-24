@@ -3,13 +3,29 @@ import {
     DELETE_ITEM,
     INCREMENT_ITEM,
     DECREMENT_ITEM,
-    APPLY_COUPON
+    APPLY_COUPON,
+    DELETE_COUPON
 } from './shopping_cart_action_types'
 
-const addItem = ({id, price, info}) => {
-    const type = ADD_ITEM
 
-    return {type, id, price, info}
+const createAction = (type) => {
+    return (payload) => {
+        return {type, payload}
+    }
+}
+
+const addItem = ({id, price, info}) => {
+    return (dispatch, getState) => {
+        const {items} = getState()
+
+        let type = ADD_ITEM
+
+        items.forEach( item => {
+            item.id === id ? type = INCREMENT_ITEM : null
+        })
+
+        return dispatch({type, id, price, info})
+    }
 }
 
 const deleteItem = ({id}) => {
@@ -37,10 +53,13 @@ const applyCoupon = ({coupon}) => {
     return {type, coupon}
 }
 
+const deleteCoupon = createAction(DELETE_COUPON)
+
 export default {
     addItem,
     deleteItem,
     incrementItem,
     decrementItem,
-    applyCoupon
+    applyCoupon,
+    deleteCoupon
 }

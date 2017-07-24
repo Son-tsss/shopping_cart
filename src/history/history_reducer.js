@@ -12,10 +12,12 @@ const historyReducer = (reducer) => {
         switch (action.type) {
             case UNDO:
                 return {
+                    ...state,
                     currentStatePointer: currentStatePointer > 0 ? currentStatePointer - 1 : 0
                 }
             case REDO:
                 return {
+                    ...state,
                     currentStatePointer: currentStatePointer < states.length - 1
                         ? currentStatePointer + 1
                         : states.length - 1

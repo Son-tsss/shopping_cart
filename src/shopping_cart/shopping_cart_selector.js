@@ -1,50 +1,69 @@
-export default (state) => {
-    const items = state.items.map(item => {
+import {createSelector} from 'reselect'
+
+const getItems = state => state.items
+
+const getCoupons = state => state.coupons
+
+const getItemsWithInfo = createSelector([getItems, getCoupons], (items, coupons) => {
+    return items.map(item => {
+        const {count, price} = item
+        const couponsApplied = coupons.filter(coupon => {
+            return coupon.to ? item.id === coupon.to : false
+        })
+
+        const discountSum = couponsApplied.reduce((composition, {discount}) => composition * discount, 1)
+
         return {
-            ...item,
-            canDecrement: item.count > 1,
-            couponsApplied: state.coupons.filter(coupon => {
-                if (coupon.to)
-                    return item.id === coupon.to
-                else
-                    return true
-            })
+            item,
+            canDecrement: count > 1,
+            couponsApplied,
+            sum: count * price,
+            finalSum: count * price * discountSum,
+            finalPrice: price * discountSum
         }
     })
+})
 
-    const usedCoupons = state.coupons.filter(coupon => {
+const getCalculatedPrice = createSelector([getItemsWithInfo], items => {
+    return items.reduce((bill, item) => {
+        const {sum: itemSum, finalSum: itemFinalSum} = item
+        const {sum, finalSum} = bill
+
+        return {
+            sum: sum + itemSum,
+            finalSum: finalSum + itemFinalSum,
+        }
+    }, {finalSum: 0, sum: 0,})
+})
+
+
+const getUsedCoupons = createSelector([getCoupons, getItems], (coupons, items) => {
+    return coupons.filter(coupon => {
             if (coupon.to)
-                return state.items.reduce((apply, item) => apply || item.id === coupon.to, false)
+                return items.reduce((apply, item) => apply || item.id === coupon.to, false)
             else
                 return true
         }
     )
+})
 
-    const bill = items.reduce((bill, item) => {
-        const {id, count, price, couponsApplied} = item
-        const {items, sum, total} = bill
-        const newItem =  {
-            id,
-            count,
-            price,
-            couponsApplied,
-            sum: count * price,
-            finalSum: count * price * couponsApplied.reduce((composition, {discount}) => composition * discount, 1)
-        }
+const getCartCoupons = createSelector([getCoupons], coupons => coupons.filter(coupon => !coupon.to))
 
-        return {
-            items: [
-                ...items,
-               newItem
-            ],
-            sum: sum + newItem.sum,
-            total: total + newItem.finalSum
-        }
-    }, {items: [], total: 0, sum: 0})
+const getBill = createSelector([getItemsWithInfo, getCalculatedPrice, getCartCoupons], (items, {sum, finalSum}, cartCoupons) => {
+    const total = finalSum * cartCoupons.reduce((composition, {discount}) => composition * discount, 1)
 
     return {
         items,
-        usedCoupons,
-        bill
+        cartCoupons,
+        sum,
+        total
+    }
+})
+
+export default (state) => {
+    return {
+        items: getItemsWithInfo(state),
+        usedCoupons: getUsedCoupons(state),
+        bill: getBill(state)
     }
 }

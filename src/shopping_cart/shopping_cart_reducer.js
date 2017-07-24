@@ -3,7 +3,8 @@ import {
     DELETE_ITEM,
     INCREMENT_ITEM,
     DECREMENT_ITEM,
-    APPLY_COUPON
+    APPLY_COUPON,
+    DELETE_COUPON
 } from './shopping_cart_action_types'
 
 const initialState = {
@@ -16,32 +17,19 @@ const shoppingCartReducer = (state = initialState, action = {}) => {
     const {items, coupons} = state
 
     switch (action.type) {
-        case ADD_ITEM: {
-            const haveItem = items.reduce((haveItem, item) => (item.id === action.id || haveItem), false)
-
-            return haveItem
-                ? {
-                    ...state,
-                    items: items.map(item =>
-                        item.id === action.id
-                            ? {...item, count: item.count + 1}
-                            : item
-                    )
-                }
-                : {
-                    ...state,
-                    items: [
-                        ...items,
-                        {
-                            id: action.id,
-                            price: action.price,
-                            info: action.info,
-                            count: 1
-                        }
-                    ]
-                }
-
-        }
+        case ADD_ITEM:
+            return {
+                ...state,
+                items: [
+                    ...items,
+                    {
+                        id: action.id,
+                        price: action.price,
+                        info: action.info,
+                        count: 1
+                    }
+                ]
+            }
 
         case DELETE_ITEM:
             return {
@@ -72,7 +60,13 @@ const shoppingCartReducer = (state = initialState, action = {}) => {
         case APPLY_COUPON:
             return {
                 ...state,
-                coupons: [...coupons.filter( ({id}) => action.coupon.id !== id), action.coupon]
+                coupons: [...coupons.filter(({id}) => action.coupon.id !== id), action.coupon]
+            }
+
+        case DELETE_COUPON:
+            return {
+                ...state,
+                coupons: [...coupons.filter(({id}) => action.id !== id)]
             }
 
         default:

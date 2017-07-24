@@ -1,10 +1,211 @@
-.products-list, .coupons-list, .shopping-cart{
-    display: flex;
-    background: #cccccc;
+html, body {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    color: #211922;
+    font-size: 12px;
+    background: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #757575;
+    font-size: 56px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.products, .coupons{
     width: 50%;
+    display: inline-block;
+}
+
+.products-list, .coupons-list, .shopping-cart{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
     padding: 25px;
+}
+
+.picture-card {
+    width: 250px;
+    height: 350px;
+    background: #ffffff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
     margin: 25px;
-    justify-content: space-around;
+    position: relative;
+}
+
+.picture-card-header{
+    width: 100%;
+}
+
+.picture-card-header-picture{
+    width: 100%;
+    max-height: 170px;
+}
+
+.picture-card-body{
+    padding: 0 25px;
+}
+
+.bill-item{
+    align-items: center;
+    display: flex;
+}
+
+.bill-item-info{
+    display: inline-block;
+}
+
+.product-info-name, .coupon-info-name, .shopping-cart-item-name{
+    text-align: center;
+    font-size: 18px;
+}
+
+.bill-item-name{
+    font-size: 18px;
+}
+
+.product-info-id, .coupon-info-id, .shopping-cart-item-id{
+    color: #BDBDBD;
+    text-align: center;
+}
+
+.bill-item-id{
+    color: #BDBDBD;
+}
+
+.bill-item-count{
+    font-size: 39px;
+    display: inline-block;
+    margin: 0 35px;
+}
+
+.bill-item-discounts {
+    display: inline-block;
+}
+
+.bill-item-discount {
+    font-size: 16px;
+    color: #e53935;
+    display: block;
+    margin: 10px;
+}
+
+.product-info-price, .coupon-info-discount, .shopping-cart-item-price, .shopping-cart-item-new-price, .bill-item-price, .bill-item-new-price {
+    font-size: 21px;
+    font-weight: 500;
+    color: #FBC02D;
 }
 
 
+.shopping-cart-item-price__stroked, .bill-item-price__stroked {
+    text-decoration: line-through;
+}
+
+.shopping-cart-item-new-price{
+    margin-left: 25px;
+}
+
+.shopping-cart-item-new-price, .bill-item-new-price{
+    color: #e53935;
+}
+
+
+.picture-card-badges{
+    position: absolute;
+    top: 0px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.picture-card-badge {
+    width: 50px;
+    height: 30px;
+    background: #e53935;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.picture-card-footer{
+    height: 45px;
+    border-top: 1px solid #cccccc;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+.picture-card-footer button {
+    margin: 5px;
+    height: 35px;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    color: #29B6F6;
+    cursor: pointer;
+}
+
+.picture-card-footer button:focus {
+    border: none;
+    outline: none;
+}
+
+.picture-card-footer button:hover {
+    text-decoration: underline;
+}
+
+.shopping-cart-item-counter{
+    text-align: center;
+    padding-left: 35px;
+}
+
+.shopping-cart-item-counter>.shopping-cart-item-counter-decrement, .shopping-cart-item-counter>.shopping-cart-item-counter-increment{
+    border-radius: 16px;
+    color: #fff;
+    background-color: #29B6F6;
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.shopping-cart-item-counter>.shopping-cart-item-counter-delete{
+    border-radius: 16px;
+    color: #fff;
+    background-color: #e53935;
+    width: 16px;
+    height: 16px;
+    font-size: 9px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.shopping-cart-item-counter>.shopping-cart-item-counter-decrement:hover,
+.shopping-cart-item-counter>.shopping-cart-item-counter-increment:hover,
+.shopping-cart-item-counter>.shopping-cart-item-counter-delete:hover{
+    text-decoration: none;
+}
+
+.shopping-cart-item-counter>.shopping-cart-item-counter-decrement[disabled]{
+    background-color: #757575;
+}
+
+.shopping-cart-item-counter-count{
+    margin: 0px 5px;
+    font-size: 20px;
+}
+
+.bill-items-list li{
+    border: 1px solid #ccc;
+    width: 50%;
+    padding: 25px;
+    margin: 25px;
+}

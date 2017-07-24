@@ -1,16 +1,16 @@
 export default [
     {
-        id: "c1",
+        id: "sc1",
         discount: 0.75,
         info: {
-            name: "pink unicorn discount"
+            name: "street discount"
         },
-        to: "i1"
+        to: "street"
     }, {
         id: "c2",
         discount: 0.5,
         info: {
-            name: "discunt to all cart"
+            name: "discount to all cart"
         }
     }, {
         id: "i3",
